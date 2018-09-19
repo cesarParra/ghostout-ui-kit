@@ -1,1 +1,0 @@
-# ghostout-ui-kit
