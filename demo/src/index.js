@@ -7,7 +7,7 @@ class Demo extends Component {
   render() {
     return <div>
       <h1>ghostout-ui-kit Demo</h1>
-      <Alert>Test</Alert>
+      <Alert type="danger">Test</Alert>
     </div>
   }
 }
