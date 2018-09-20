@@ -1,31 +1,37 @@
 {
   "name": "ghostout-ui-kit",
-  "version": "0.0.3",
-  "description": "Describe ghostout-ui-kit here",
-  "private": false,
+  "version": "1.0.0",
+  "description": "ghostout-ui-kit React component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "nwb serve-react-app",
-    "build-js": "nwb build-react-app",
-    "build": "npm-run-all build-css build-js",
-    "clean": "nwb clean-app",
-    "start": "npm-run-all -p watch-css start-js",
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {
-    "bulma": "^0.7.1",
-    "node-sass-chokidar": "^1.3.3",
-    "npm-run-all": "^4.1.3",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "nwb": "0.21.x",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
-  "devDependencies": {
-    "nwb": "0.21.x"
-  },
-  "author": "cesarParra",
+  "author": "",
+  "homepage": "",
   "license": "MIT",
-  "repository": ""
+  "repository": "",
+  "keywords": [
+    "react-component"
+  ]
 }
