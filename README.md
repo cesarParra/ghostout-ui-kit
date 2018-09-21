@@ -4,8 +4,6 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe ghostout-ui-kit here.
-
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
 
@@ -14,3 +12,14 @@ Describe ghostout-ui-kit here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+Description
+
+Installation
+
+Usage
+
+Components
+* Alert
+
+
