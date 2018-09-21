@@ -20,7 +20,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "test": "jest",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "npm test -- --watch"
   },
   "dependencies": {
     "bulma": "^0.7.1",
