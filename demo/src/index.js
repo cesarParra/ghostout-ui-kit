@@ -3,6 +3,7 @@ import {render} from 'react-dom'
 
 import {Alert} from '../../src'
 import {Button} from '../../src'
+import {ButtonGroup} from '../../src'
 
 class Demo extends Component {
   render() {
@@ -19,6 +20,14 @@ class Demo extends Component {
         <Button className="is-primary">Primary</Button>
         <Button className="is-secondary">Secondary</Button>
         <Button className="is-primary" loading>Loading</Button>
+      </div>
+
+      <div>
+        <h3>Button Groups</h3>
+        <ButtonGroup>
+          <Button>Button 1</Button>
+          <Button>Button 2</Button>
+        </ButtonGroup>
       </div>
       
     </div>
