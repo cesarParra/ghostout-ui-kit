@@ -20,7 +20,6 @@ describe('<Alert />', () => {
       Danger
     </Alert>));
 
-    console.log(alertComponent.className);
     expect(alertComponent.hasClass('notification')).to.be.true;
   });
 

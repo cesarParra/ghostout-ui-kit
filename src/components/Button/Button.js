@@ -3,7 +3,7 @@ import '../../../css/components/Button/Button.css'
 
 class Button extends Component {
   render() {
-    let { className, onClick, serverStatus, loading } = this.props;
+    let { className, onClick, loading } = this.props;
     let classes = `button ${className}`;
     if (loading) {
       classes += ' is-loading';
