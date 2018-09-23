@@ -1,9 +1,10 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import { render } from 'react-dom'
 
-import {Alert} from '../../src'
-import {Button} from '../../src'
-import {ButtonGroup} from '../../src'
+import { Alert } from '../../src'
+import { Button } from '../../src'
+import { ButtonGroup } from '../../src'
+import { Card } from '../../src'
 
 class Demo extends Component {
   render() {
@@ -29,9 +30,14 @@ class Demo extends Component {
           <Button>Button 2</Button>
         </ButtonGroup>
       </div>
-      
+
+      <div>
+        <h3>Cards</h3>
+        <Card>Card Content</Card>
+      </div>
+
     </div>
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'))
