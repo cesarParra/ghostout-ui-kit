@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-import { Alert } from '../../src'
-import { Button } from '../../src'
-import { ButtonGroup } from '../../src'
-import { Card } from '../../src'
+import { Alert, Button, ButtonGroup, Card, CardContent } from '../../src'
 
 class Demo extends Component {
   render() {
@@ -33,9 +30,12 @@ class Demo extends Component {
 
       <div>
         <h3>Cards</h3>
-        <Card>Card Content</Card>
+        <Card>
+          <CardContent>
+          <p>Card Content</p>
+          </CardContent>
+        </Card>
       </div>
-
     </div>
   }
 }
