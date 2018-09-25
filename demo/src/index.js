@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-import { Alert, Button, ButtonGroup, Card, CardContent } from '../../src'
+import { Alert, Button, ButtonGroup, Card, CardContent, CardHeader } from '../../src'
 
 class Demo extends Component {
   render() {
@@ -31,8 +31,9 @@ class Demo extends Component {
       <div>
         <h3>Cards</h3>
         <Card>
+          <CardHeader title="Header" />
           <CardContent>
-          <p>Card Content</p>
+            <p>Card Content</p>
           </CardContent>
         </Card>
       </div>

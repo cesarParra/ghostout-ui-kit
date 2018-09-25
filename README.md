@@ -25,5 +25,6 @@ Components
 * ButtonGroup
 * Card
 * CardContent
+* CardHeader
 
 
