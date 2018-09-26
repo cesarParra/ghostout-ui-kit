@@ -1,0 +1,9 @@
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+
+/* Scrollbar mobile fix. This forces the scrollbar to dissappear for everything
+   smaller than the $tablet mixin. */
+.scrollbar-container {
+  @include until($tablet) {
+    position: relative !important;
+  }
+}

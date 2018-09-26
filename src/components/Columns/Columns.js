@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../css/components/Columns/Columns.css'
 
 export default (props) => {
   return (
