@@ -1,8 +1,12 @@
 
 # ghostout-ui-kit
 
+[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
+
+[build-badge]: https://img.shields.io/travis/cesarParra/ghostout-ui-kit/master.png?style=flat-square
+[build]: https://travis-ci.org/cesarParra/ghostout-ui-kit
 
 [npm-badge]: https://badge.fury.io/js/ghostout-ui-kit.svg
 [npm]: https://www.npmjs.org/package/ghostout-ui-kit
