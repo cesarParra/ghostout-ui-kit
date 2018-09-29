@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import "../../src/index.css";
 
 import { 
   Alert, Button, ButtonGroup, Card, CardContent, CardHeader, Columns, Column
@@ -7,7 +8,7 @@ import {
 
 class Demo extends Component {
   render() {
-    return <div>
+    return <div className="content">
       <h1>ghostout-ui-kit Demo</h1>
       <h2>Components</h2>
       <div>

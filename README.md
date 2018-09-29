@@ -8,7 +8,7 @@
 [npm]: https://www.npmjs.org/package/ghostout-ui-kit
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[coveralls]: https://coveralls.io/github/cesarParra/ghostout-ui-kit
 
 React UI Kit based on the [Bulma CSS framework](https://bulma.io/)
 
