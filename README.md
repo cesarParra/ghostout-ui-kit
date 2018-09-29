@@ -18,13 +18,33 @@ React UI Kit based on the [Bulma CSS framework](https://bulma.io/)
     npm i ghostout-ui-kit
 
 ## Usage
+This kit comes with a variety of components that can be individually used. Follow the code samples to use in your React code.
 
-Components
-* Alert
-* Button
-* ButtonGroup
-* Card
-* CardContent
-* CardHeader
-* Columns
-* Column
+### Components
+#### Alert
+Use Alert blocks to notify the user of something.
+##### Children Support? Yes
+
+    import { Alert } from  'ghostout-ui-kit'
+    ...
+    <Alert>Test</Alert>
+    <Alert  type="danger">An error has occurred</Alert>
+    <Alert  type="info">Hey! Take a look at this.</Alert>
+    <Alert  type="warning">Beware</Alert>
+    <Alert  type="success">Success!</Alert>
+  
+  ##### Supported Props
+  
+|Name|Description  |
+|--|--|
+|type  |Optional alert type that drives the alert's color. Supported values are danger, info, warning, and succcess  |
+
+  
+
+#### Button
+#### ButtonGroup
+#### Card
+#### CardContent
+#### CardHeader
+#### Columns
+#### Column

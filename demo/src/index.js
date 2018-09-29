@@ -11,9 +11,13 @@ class Demo extends Component {
     return <div className="content">
       <h1>ghostout-ui-kit Demo</h1>
       <h2>Components</h2>
-      <div>
+      <div className="container">
         <h3>Alert</h3>
+        <Alert>Test</Alert>
         <Alert type="danger">Test</Alert>
+        <Alert type="info">Test</Alert>
+        <Alert type="warning">Test</Alert>
+        <Alert type="success">Test</Alert>
       </div>
 
       <div>
