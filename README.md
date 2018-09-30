@@ -44,7 +44,7 @@ Use Alert blocks to notify the user of something.
 #### Button
 Button component for, you know, clicking on it.
 ##### Children Support? Yes
-    import { Button} from  'ghostout-ui-kit'
+    import { Button } from  'ghostout-ui-kit'
     ...
     <Button className="my-class" onClick={() => console.log('Clicked')}>Click Me!</Button>
     <Button loading>Click Me!</Button>
@@ -63,3 +63,4 @@ Button component for, you know, clicking on it.
 #### CardHeader
 #### Columns
 #### Column
+#### Input
