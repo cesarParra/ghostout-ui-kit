@@ -2,58 +2,69 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import "../../src/index.css";
 
-import { 
-  Alert, Button, ButtonGroup, Card, CardContent, CardHeader, Columns, Column
+import {
+  Alert, Button, ButtonGroup, Card, CardContent, CardHeader, Columns, Column, Input
 } from '../../src'
 
 class Demo extends Component {
   render() {
-    return <div className="content">
+    return <div className="container content">
       <h1>ghostout-ui-kit Demo</h1>
       <h2>Components</h2>
-      <div className="container">
-        <h3>Alert</h3>
-        <Alert>Test</Alert>
-        <Alert type="danger">Test</Alert>
-        <Alert type="info">Test</Alert>
-        <Alert type="warning">Test</Alert>
-        <Alert type="success">Test</Alert>
-      </div>
-
-      <div>
-        <h3>Buttons</h3>
-        <Button className="is-primary">Primary</Button>
-        <Button className="is-secondary">Secondary</Button>
-        <Button className="is-primary" loading>Loading</Button>
-      </div>
-
-      <div>
-        <h3>Button Groups</h3>
-        <ButtonGroup>
-          <Button>Button 1</Button>
-          <Button>Button 2</Button>
-        </ButtonGroup>
-      </div>
-
-      <div>
-        <h3>Cards</h3>
-        <Card>
-          <CardHeader title="Header" />
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-        </Card>
-      </div>
-
-      <div>
-        <div>Columns</div>
+      <Card>
+        <CardHeader title="Alert" />
+        <CardContent>
+          <Alert type="danger">Test</Alert>
+          <Alert type="info">Test</Alert>
+          <Alert type="warning">Test</Alert>
+          <Alert type="success">Test</Alert>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Buttons" />
+        <CardContent>
+          <Button className="is-primary">Primary</Button>
+          <Button className="is-secondary">Secondary</Button>
+          <Button className="is-primary" loading>Loading</Button>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Button Groups" />
+        <CardContent>
+          <ButtonGroup>
+            <Button>Button 1</Button>
+            <Button>Button 2</Button>
+          </ButtonGroup>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Cards" />
+        <CardContent>
+          <Card>
+            <CardHeader title="Header" />
+            <CardContent>
+              <p>Card Content</p>
+            </CardContent>
+          </Card>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Columns" />
+        <CardContent>
         <Columns>
           <Column>Column 1</Column>
           <Column>Column 2</Column>
           <Column>Column 3</Column>
           <Column>Column 4</Column>
         </Columns>
-      </div>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Input" />
+        <CardContent>
+          Coming soon...
+        </CardContent>
+      </Card>
     </div>
   }
 }
