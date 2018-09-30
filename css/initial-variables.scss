@@ -21,4 +21,6 @@ $link-hover: $secondary-dark;
 $open-sans: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-primary: $open-sans;
 
+$spacing-base: 8px;
+
 @import "../node_modules/bulma/sass/utilities/_all.sass";

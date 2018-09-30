@@ -62,7 +62,9 @@ class Demo extends Component {
       <Card>
         <CardHeader title="Input" />
         <CardContent>
-          Coming soon...
+          <Input type="text" label="Text Input" />
+          <Input type="number" label="Number Input" />
+          <Input type="password" label="Password" />
         </CardContent>
       </Card>
     </div>
