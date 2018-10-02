@@ -58,6 +58,16 @@ Button component for, you know, clicking on it.
 |loading|Optional boolean to display the button in a loading state and disable clicking.  |
 
 #### ButtonGroup
+Displays a set of buttons together.
+##### Children Support? Yes
+    import { ButtonGroup, Button } from  'ghostout-ui-kit'
+    ...
+    <ButtonGroup>
+	    <Button loading>Button 1</Button>
+	    <Button loading>Button 2</Button>
+	    <Button loading>Button 3</Button>
+    </ButtonGroup>
+
 #### Card
 #### CardContent
 #### CardHeader
