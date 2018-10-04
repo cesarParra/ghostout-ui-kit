@@ -3,7 +3,8 @@ import { render } from 'react-dom'
 import "../../src/index.css";
 
 import {
-  Alert, Button, ButtonGroup, Card, CardContent, CardHeader, Columns, Column, Input
+  Alert, Button, ButtonGroup, Card, CardContent, 
+  CardHeader, Columns, Column, Input, Hero
 } from '../../src'
 
 class Demo extends Component {
@@ -66,6 +67,10 @@ class Demo extends Component {
           <Input type="number" label="Number Input" />
           <Input type="password" label="Password" />
         </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Hero" />
+        <Hero head={<div>Hero Head</div>} body={<div>Hero Body</div>} />
       </Card>
     </div>
   }
