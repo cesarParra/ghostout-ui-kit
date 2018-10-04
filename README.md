@@ -59,7 +59,9 @@ Button component for, you know, clicking on it.
 
 #### ButtonGroup
 Displays a set of buttons together.
+
 ##### Children Support? Yes
+
     import { ButtonGroup, Button } from  'ghostout-ui-kit'
     ...
     <ButtonGroup>
@@ -69,8 +71,25 @@ Displays a set of buttons together.
     </ButtonGroup>
 
 #### Card
-#### CardContent
-#### CardHeader
+Card component that act as a data container. Better used alongside the CardContent and CardHeader components.
+
+##### Children Support? Yes
+
+    import { Card, CardHeader, CardContent } from  'ghostout-ui-kit'
+    ...
+    <Card>
+	    <CardHeader title="This is a card" />
+	    <CardContent>
+		    This is the card content.
+	    </CardContent>
+    </Card>
+    
+  ##### Supported Props
+  
+|Name|Description  |
+|--|--|
+|className|Optional class name for styling.  |
+
 #### Columns
 #### Column
 #### Input
