@@ -8,9 +8,9 @@ import Button from '../Button'
 describe('<ButtonGroup />', () => {
   it('renders children when passed in', () => {
     const buttonGroup = shallow((
-    <Button>
+    <ButtonGroup>
         <Button />
-    </Button>));
+    </ButtonGroup>));
 
     expect(buttonGroup.contains(<Button />)).to.equal(true);
   });
