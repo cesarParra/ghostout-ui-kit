@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import "../../src/index.css";
 
 import {
-  Alert, Button, ButtonGroup, Card, CardContent, 
+  Alert, Button, ButtonGroup, Card, CardContent,
   CardHeader, Columns, Column, Input, Hero, Dropdown
 } from '../../src'
 
@@ -52,12 +52,12 @@ class Demo extends Component {
       <Card>
         <CardHeader title="Columns" />
         <CardContent>
-        <Columns>
-          <Column>Column 1</Column>
-          <Column>Column 2</Column>
-          <Column>Column 3</Column>
-          <Column>Column 4</Column>
-        </Columns>
+          <Columns>
+            <Column>Column 1</Column>
+            <Column>Column 2</Column>
+            <Column>Column 3</Column>
+            <Column>Column 4</Column>
+          </Columns>
         </CardContent>
       </Card>
       <Card>
@@ -70,13 +70,15 @@ class Demo extends Component {
       </Card>
       <Card>
         <CardHeader title="Dropdown" />
-        <Dropdown>
-          <a>Hello There</a>
-          <p>You can insert <strong>any type of content</strong> within the dropdown menu.</p>
-          {/* TODO: Dividers should not be inside of the item and should be their own things */}
-          <hr class="dropdown-divider"></hr>
-          <div>Some content</div>
-        </Dropdown>
+        <CardContent>
+          <Dropdown>
+            <a>Hello There</a>
+            <p>You can insert <strong>any type of content</strong> within the dropdown menu.</p>
+            {/* TODO: Dividers should not be inside of the item and should be their own things */}
+            <hr class="dropdown-divider"></hr>
+            <div>Some content</div>
+          </Dropdown>
+        </CardContent>
       </Card>
       <Card>
         <CardHeader title="Hero" />
