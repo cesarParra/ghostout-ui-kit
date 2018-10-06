@@ -91,5 +91,8 @@ Card component that act as a data container. Better used alongside the CardConte
 |className|Optional class name for styling.  |
 
 #### Columns
+*Documentation to come.*
 #### Column
+*Documentation to come.*
 #### Input
+*Documentation to come.*
