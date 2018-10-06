@@ -4,7 +4,8 @@ import "../../src/index.css";
 
 import {
   Alert, Button, ButtonGroup, Card, CardContent,
-  CardHeader, Columns, Column, Input, Hero, Dropdown, DropdownItem
+  CardHeader, Columns, Column, Input, Hero, Dropdown, 
+  DropdownItem, DropdownContent
 } from '../../src'
 
 class Demo extends Component {
@@ -71,12 +72,16 @@ class Demo extends Component {
       <Card>
         <CardHeader title="Dropdown" />
         <CardContent>
-          <Dropdown>
+          <Dropdown triggerContent='Dropdown Button'>
             <DropdownItem>Actionable Item</DropdownItem>
-            <p>You can insert <strong>any type of content</strong> within the dropdown menu.</p>
+            <DropdownContent>
+              <p>You can insert <strong>any type of content</strong> within the dropdown menu.</p>
+            </DropdownContent>
             {/* TODO: Dividers should not be inside of the item and should be their own things */}
             <hr class="dropdown-divider"></hr>
-            <div>Some content</div>
+            <DropdownContent>
+              <div>More content</div>
+            </DropdownContent>
           </Dropdown>
         </CardContent>
       </Card>
