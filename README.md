@@ -96,3 +96,5 @@ Card component that act as a data container. Better used alongside the CardConte
 *Documentation to come.*
 #### Input
 *Documentation to come.*
+#### Hero
+*Documentation to come.*
