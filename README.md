@@ -22,6 +22,38 @@ React UI Kit based on the [Bulma CSS framework](https://bulma.io/)
 ## Usage
 This kit comes with a variety of components that can be individually used. Follow the code samples to use in your React code.
 
+### Building Layouts
+Columns allow you to build responsive layouts.
+
+To build a layout, use as many Column components as desired inside of a Columns container.
+
+    import { Columns, Column } from  'ghostout-ui-kit'
+    ...
+    <Columns>
+	    <Column>Column 1</Column>
+	    <Column>Column 2</Column>
+	    <Column>Column 3</Column>
+	    <Column>Column 4</Column>
+    </Columns>
+   
+ #### Columns
+ ##### Children Support? Yes
+ ##### Supported Props
+  
+|Name|Description  |
+|--|--|
+|className|Optional class name for styling.  |
+
+ #### Column
+A single Column can be used to individually change the column size.
+ ##### Children Support? Yes
+ ##### Supported Props
+  
+|Name|Description  |
+|--|--|
+|modifiers|Class name to represent the size of the column, for example:    `is-three-quarters`, `is-two-thirds`, `is-half`. For a full reference of all supported class names refer to [Bulma's column documentation](https://bulma.io/documentation/columns/sizes/)|
+|renderScrollbars|Optional Boolean that let's you control if a single column should display its own scrollbar. Use to create page layouts powered by columns. |
+
 ### Components
 #### Alert
 Use Alert blocks to notify the user of something.
@@ -90,11 +122,9 @@ Card component that act as a data container. Better used alongside the CardConte
 |--|--|
 |className|Optional class name for styling.  |
 
-#### Columns
-*Documentation to come.*
-#### Column
-*Documentation to come.*
 #### Input
 *Documentation to come.*
 #### Hero
+*Documentation to come.*
+#### Dropdown
 *Documentation to come.*

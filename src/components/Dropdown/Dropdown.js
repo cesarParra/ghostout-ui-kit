@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button'
+import '../../../css/components/Dropdown/Dropdown.css'
 
 export default ({ children, triggerContent, className = '' }) => {
   return (
