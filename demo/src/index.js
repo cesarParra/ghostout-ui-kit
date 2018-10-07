@@ -4,8 +4,8 @@ import "../../src/index.css";
 
 import {
   Alert, Button, ButtonGroup, Card, CardContent,
-  CardHeader, Columns, Column, Input, Hero, Dropdown, 
-  DropdownItem, DropdownContent, DropdownDivider
+  CardHeader, Columns, Column, Input, Hero, Dropdown,
+  DropdownItem, DropdownContent, DropdownDivider, SelectContainer
 } from '../../src'
 
 class Demo extends Component {
@@ -85,10 +85,21 @@ class Demo extends Component {
         </CardContent>
       </Card>
       <Card>
+        <CardHeader title="Select" />
+        <CardContent>
+          <SelectContainer>
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+          </SelectContainer>
+        </CardContent>
+      </Card>
+      <Card>
         <CardHeader title="Hero" />
         <Hero head={<div>Hero Head</div>} body={<div>Hero Body</div>} />
       </Card>
-    </div>
+    </div >
   }
 }
 
