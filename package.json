@@ -1,6 +1,6 @@
 {
   "name": "ghostout-ui-kit",
-  "version": "1.7.1",
+  "version": "1.9.0",
   "description": "ghostout-ui-kit React component",
   "main": "lib/index.js",
   "module": "es/index.js",
