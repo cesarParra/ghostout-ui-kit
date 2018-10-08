@@ -122,9 +122,24 @@ Card component that act as a data container. Better used alongside the CardConte
 |--|--|
 |className|Optional class name for styling.  |
 
+#### Hero
+A hero banner that can be used to showcase something.
+##### Children Support? No
+
+    import { Hero } from  'ghostout-ui-kit'
+    ...
+    <Hero  head={<div>Hero Head</div>}  body={<div>Hero Body</div>}  />
+
+|Name|Description  |
+|--|--|
+|head|React component to be placed on the hero's header area.  |
+|body|React component to be placed on the hero's body area.  |
+
+
 #### Input
 *Documentation to come.*
-#### Hero
-*Documentation to come.*
+
 #### Dropdown
+*Documentation to come.*
+#### Section
 *Documentation to come.*
