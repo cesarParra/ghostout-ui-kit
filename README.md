@@ -130,16 +130,32 @@ A hero banner that can be used to showcase something.
     ...
     <Hero  head={<div>Hero Head</div>}  body={<div>Hero Body</div>}  />
 
+  ##### Supported Props
 |Name|Description  |
 |--|--|
 |head|React component to be placed on the hero's header area.  |
 |body|React component to be placed on the hero's body area.  |
 
+#### Dropdown
+Dropdown to display a list of content.
+##### Children Support? Yes*
+*Children should be a list of DropdownItem components.
+
+    import { Dropdown, DropdownItem } from  'ghostout-ui-kit'
+    ...
+    <Dropdown triggerContent={<span>Body Part <i  className="fas fa-caret-down"></i></span>}>
+	    <DropdownItem>Item 1</DropdownItem>
+	    <DropdownItem>Item 2</DropdownItem>
+    </Dropdown>
+ 
+  ##### Supported Props
+  |Name|Description  |
+|--|--|
+|className|Optional class name for styling.  |
+|triggerContent|React component to be displayed as the visible portion of this component. |
 
 #### Input
 *Documentation to come.*
 
-#### Dropdown
-*Documentation to come.*
 #### Section
 *Documentation to come.*
