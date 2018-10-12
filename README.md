@@ -143,7 +143,7 @@ Dropdown to display a list of content.
 
     import { Dropdown, DropdownItem } from  'ghostout-ui-kit'
     ...
-    <Dropdown triggerContent={<span>Body Part <i  className="fas fa-caret-down"></i></span>}>
+    <Dropdown triggerContent={<span>Hover Over Me! <i  className="fas fa-caret-down"></i></span>}>
 	    <DropdownItem>Item 1</DropdownItem>
 	    <DropdownItem>Item 2</DropdownItem>
     </Dropdown>
