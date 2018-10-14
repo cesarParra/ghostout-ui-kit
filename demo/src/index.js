@@ -6,7 +6,7 @@ import {
   Alert, Button, ButtonGroup, Card, CardContent,
   CardHeader, Columns, Column, Input, Hero, Dropdown,
   DropdownItem, DropdownContent, DropdownDivider, SelectContainer,
-  Section
+  Section, Tag
 } from '../../src'
 
 class Demo extends Component {
@@ -107,6 +107,14 @@ class Demo extends Component {
             Content inside of a section.
           </div>
         </Section>
+      </Card>
+      <Card>
+        <CardHeader title="Tags" />
+        <CardContent>
+          <div>
+            <Tag className="is-black">Black</Tag>
+          </div>
+        </CardContent>
       </Card>
     </div >
   }
