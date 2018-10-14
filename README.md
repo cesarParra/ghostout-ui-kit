@@ -148,14 +148,8 @@ Dropdown to display a list of content.
 	    <DropdownItem>Item 2</DropdownItem>
     </Dropdown>
  
-  ##### Supported Props
-  |Name|Description  |
+##### Supported Props
+|Name|Description  |
 |--|--|
 |className|Optional class name for styling.  |
 |triggerContent|React component to be displayed as the visible portion of this component. |
-
-#### Input
-*Documentation to come.*
-
-#### Section
-*Documentation to come.*
