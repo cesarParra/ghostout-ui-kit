@@ -1,3 +1,15 @@
 @import "../../../css/initial-variables.scss";
 @import "../../../node_modules/bulma/sass/utilities/_all.sass";
 @import "../../../node_modules/bulma/sass/elements/button.sass";
+
+button.is-secondary {
+  border:none;
+  background: none;
+  color: $secondary;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button.is-secondary:hover {
+  color: $secondary-dark;
+}
