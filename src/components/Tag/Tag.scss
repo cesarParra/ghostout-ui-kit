@@ -1,3 +1,8 @@
 @import "../../../css/initial-variables.scss";
 @import "../../../node_modules/bulma/sass/utilities/_all.sass";
 @import "../../../node_modules/bulma/sass/elements/tag.sass";
+
+.tag:not(body).is-secondary {
+  background-color: $secondary;
+  color: $white; 
+}

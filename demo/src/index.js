@@ -113,6 +113,16 @@ class Demo extends Component {
         <CardContent>
           <div>
             <Tag className="is-black">Black</Tag>
+            <Tag className="is-dark">Dark</Tag>
+            <Tag className="is-light">Light</Tag>
+            <Tag className="is-white">White</Tag>
+            <Tag className="is-primary">Primary</Tag>
+            <Tag className="is-secondary">Secondary</Tag>
+            <Tag className="is-link">Link</Tag>
+            <Tag className="is-info">Info</Tag>
+            <Tag className="is-success">Success</Tag>
+            <Tag className="is-warning">Warning</Tag>
+            <Tag className="is-danger">Danger</Tag>
           </div>
         </CardContent>
       </Card>
