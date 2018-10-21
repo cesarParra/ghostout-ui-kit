@@ -2,12 +2,12 @@ import React from 'react'
 import Button from '../Button'
 import '../../../css/components/Dropdown/Dropdown.css'
 
-export default ({ children, triggerContent, className = '' }) => {
+export default ({ children, triggerContent, className = '', triggerClassName = '' }) => {
   return (
     // TODO: Implement non-hoverable dropdowns
     <div className={`dropdown is-hoverable ${className}`}>
       <div className='dropdown-trigger'>
-        <Button>
+        <Button className={triggerClassName}>
           {triggerContent}
         </Button>
       </div>
