@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../../../css/components/Card/Card.css'
 
-const Card = (props) => {
+const Card = ({children, className = ''}) => {
     return (
-        <div className={`card ${props.className}`}>
-            {props.children}
+        <div className={`card ${className}`}>
+            {children}
         </div>
     )
 }
