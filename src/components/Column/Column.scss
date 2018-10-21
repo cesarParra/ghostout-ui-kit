@@ -4,6 +4,7 @@
 /* Scrollbar mobile fix. This forces the scrollbar to dissappear for everything
    smaller than the $tablet mixin. */
 .scrollbar-container {
+  padding: 1px;
   @include until($tablet) {
     position: relative !important;
   }
