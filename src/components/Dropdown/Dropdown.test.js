@@ -6,10 +6,7 @@ import Dropdown from './Dropdown';
 
 describe('<Dropdown />', () => {
   it('renders children when passed in', () => {
-    const dropdownComponent = shallow((
-    <Dropdown>
-        <p>Test</p>
-    </Dropdown>));
+    const dropdownComponent = shallow((<Dropdown><p>Test</p></Dropdown>));
 
     expect(dropdownComponent.contains(<p>Test</p>)).to.equal(true);
   });

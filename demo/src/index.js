@@ -6,7 +6,7 @@ import {
   Alert, Button, ButtonGroup, Card, CardContent,
   CardHeader, Columns, Column, Input, Hero, Dropdown,
   DropdownItem, DropdownContent, DropdownDivider, SelectContainer,
-  Section, Tag
+  Section, Tag, List, ListItem
 } from '../../src'
 
 class Demo extends Component {
@@ -124,6 +124,19 @@ class Demo extends Component {
             <Tag className="is-warning">Warning</Tag>
             <Tag className="is-danger">Danger</Tag>
           </div>
+        </CardContent>
+      </Card>
+      <Card>
+        <CardHeader title="Lists" />
+        <CardContent>
+          <List>
+            <ListItem>
+              Test
+            </ListItem>
+            <ListItem>
+              Another Item
+            </ListItem>
+          </List>
         </CardContent>
       </Card>
     </div >
